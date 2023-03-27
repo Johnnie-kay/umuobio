@@ -1,0 +1,151 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+}
+
+/* global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 26px;
+    background: rgb(209, 9, 9);
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(230, 230, 230);
+
+}
+
+/* header */
+header{
+    background: rgb(0, 0, 204);
+    color: rgb(230, 230, 230);
+    padding-top: 35px;
+    min-height: 70px;
+    border-bottom: rgb(209, 9, 9) 3px solid;
+}
+
+header a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 90px;
+    padding: 7px;
+}
+
+header #branding{
+    float: left;       
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+
+header .highlight{
+    color: black;
+    font-weight: bold;
+}
+
+header .current a{
+    color: red;
+}
+
+header a:hover{
+    color: rgb(209, 9, 9);
+    font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+    min-height: 350px;
+    background: url(./images/alexander-andrews-jNKv4QohAk0-unsplash.jpg) no-repeat -0.50px -1100px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+#showcase h1{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#showcase p{
+    font-size: 15px;
+}
+
+/*newsletter*/
+#newsletter{
+    padding: 10px;
+    color: rgb(230, 230, 230);
+    background: rgb(0, 0, 204);
+    border-top:black 3px solid;
+}
+
+#newsletter h1{
+    float: left;
+    font-size: 20px;
+}
+
+#newletter form{
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    margin-top: 18px;
+    margin-left: 35px;
+    height: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+/*boxes*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 200px;
+}
+
+/*footer*/
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(209, 9, 9);
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
