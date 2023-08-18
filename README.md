@@ -1,1 +1,3 @@
-A kaydesigns.com site created with html and css
+A kaydesigns.com website created with html and css
+----------------
+
